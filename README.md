@@ -6,6 +6,15 @@ Built to run in CI: exit code 0 means the version may be promoted, 1 means it ma
 Built as a dependency for [ai-foreman](https://github.com/Toyin-Bakare/ai-foreman).
 Also works on its own.
 
+## How a version is gated
+
+![eval-gate flow](docs/eval-gate-flow.svg)
+
+```
+dataset + runner + thresholds → run each case → score → aggregate → gate → exit 0 / 1
+```
+
+
 ## Install
 
 ```bash
