@@ -1,0 +1,7 @@
+{
+  "task_completion": 0.9,
+  "groundedness": 0.6,
+  "format_validity": 1.0,
+  "latency_p95_ms": 8000,
+  "cost_per_case_usd": 0.02
+}
